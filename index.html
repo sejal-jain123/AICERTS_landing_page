@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3fa62cac52.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="imgs/logo1.png" alt="Logo">
+            <!-- <span>MyLogo</span> -->
+        </div>
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#certification">Certification</a></li>
+            <li><a href="#authorised">Authorised Partners</a></li>
+            <li><a href="#resourses">Resourses</a></li>
+            <li><a href="#resourses">AI CERTs Labs</a></li>
+            <li><a href="#resourses">Stores</a></li>
+            <li><a href="#resourses">Contact</a></li>
+        </ul>
+        <div class="button-container">
+            <button>Get Certified</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <h1><span style="color: orange;">AI</span>+<br>Ethical Hacking<sup>TM</sup></h1>
+
+            <h3>CERTIFICATION: 1100ABCD</h3>
+
+            <p>The AI+ Ethical certification delves into the intersection of cybersecurity and artificial intelligent, a pivotal juncture in our era of rapid technological progress. Tailored for budding ethical hackers and cybersecurity experts, it offers comprehensive insights into AI's transformative imppact on digital offense and defence strategies. Unlike conventianal ethical hacking courses, this program harnesses AI's power to enhance cybersecurity approaches. It caters to tech enthusiasts eager to master the fusion of cutting-edge AI methods with ethical hacking practices amidst the swiftly evolving digital landscape. The curriculum encompasses four key areas, from course objectives and prerequisites to anticipated job roles and the latest AI technologies in Ethical Hacking</p>
+
+            <div class="button-container">
+                <button>Buy Exam Bundle</button>
+                <button>Download Blueprint</button>
+                <button>Finding a Training Provider</button>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="imgs/home_pic.png" alt="Profile Image">
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="container2">
+        <div class="arrow" onclick="previousImage()">&#9664;</div> <!-- Left Arrow -->
+        <div class="images">
+            <img src="imgs/side_img.jpg" alt="Image 1">
+            <img src="imgs/side_img.jpg" alt="Image 2">
+            <img src="imgs/side_img.jpg" alt="Image 3">
+            <img src="imgs/side_img.jpg" alt="Image 4">
+        </div>
+        <div class="arrow" onclick="nextImage()">&#9654;</div> <!-- Right Arrow -->
+    </div>
+
+    <div class="line"></div>
+
+    <nav class="navbar">
+        <ul id="nav-links">
+            <li><a href="#home">Prerequisites</a></li>
+            <li><a href="#about">Exam Details</a></li>
+            <li><a href="#services">Modules</a></li>
+            <li><a href="#contact">Skills</a></li>
+            <li><a href="#blog">Opportunities</a></li>
+        </ul>
+    </nav>
+
+    <div class="line"></div>
+
+    <div class="container3">
+        <h1>Prerequisites</h1>
+        <ul>
+            <li>Programming Proficiency: Knowledge of Python, Java, C++,etc for automation and scripting.</li>
+            <li>Networking Fundamentals: Understanding of networking protocols, subnetting, firewalls, and routing.</li>
+            <li>cybersecurity Basics: Familiarity with fundamental cybersecurity concepts, including encryption, authentication, access controls, and security protocols</li>
+            <li>Operating Systems Knowledge: Proficiency in using Windows and Linux operating systems.</li>
+            <li>Machine Learning Basics: Understanding of machine learning concepts, algorithms, and basic implementation.</li>
+            <li>Web Technologies: Understanding of web technologies, including HTTP/HTTPS protocols, and web servers.</li>
+        </ul>
+    </div>
+
+    <div class="line"></div>
+
+    <h2 class="main-heading">Exam Details</h2>
+    <div class="container4">
+        <div class="image-container">
+            <img src="imgs/details.png" alt="Description of image">
+        </div>
+        <div class="box-container">
+            <div class="box">Module<br>12</div>
+            <div class="box">Examination<br>1</div>
+            <div class="box">50 MCQs<br>90 Minutes</div>
+            <div class="box">Passing Score<br>70%</div>
+        </div>
+    </div>
+
+    <div class="faq-container">
+        <h2 class="faq-heading">Certification Modules</h2>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(0)">
+                <h3><span class="plus-sign">+</span>Module 1: Foundation of Ethical Hacking Using AI</h3>
+            </div>
+            <div class="faq-answer">
+                <ul>
+                    <li>1.1 Introduction to Ethical Hacking</li>
+                    <li>1.2 Ethical hacking mythodology</li>
+                    <li>1.3 Legal and regularity framework</li>
+                    <li>1.4 Hacker types and motivations</li>
+                    <li>1.5 Information gathering techniques</li>
+                    <li>1.6 Footprinting and reconnaissance</li>
+                    <li>1.7 scanning networks</li>
+                    <li>1.8 Enumeration techniques</li>
+                </ul>
+                <button class="more-info-btn">Social Impact and Global Vision</button>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(1)">
+                <h3><span class="plus-sign">+</span>Module 2: Introduction to AI in Ethical Hacking</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque quae nisi mollitia quia, totam nihil. Modi blanditiis perspiciatis nostrum deserunt architecto eius exercitationem obcaecati, provident repellat explicabo est in corporis.</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(2)">
+                <h3><span class="plus-sign">+</span>Module 3: AI Tools and Technologies in Ethical Hacking</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(3)">
+                <h3><span class="plus-sign">+</span>Module 4: AI-Driven Reconnaissance Techniques</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(4)">
+                <h3><span class="plus-sign">+</span>Module 5: AI in Vulnerability assessment and penetration testing</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(5)">
+                <h3><span class="plus-sign">+</span>Module 6: Machine Learning for Threat Analysis</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(6)">
+                <h3><span class="plus-sign">+</span>Module 7: Behavioral Analysis and Anomaly Detection for System Hacking</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(7)">
+                <h3><span class="plus-sign">+</span>Module 8: AI Enabled Incident Response Systems</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(8)">
+                <h3><span class="plus-sign">+</span>Module 9: AI for Identity and Access Management (IAM)</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(9)">
+                <h3><span class="plus-sign">+</span>Module 10: Securing AI Systems</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(10)">
+                <h3><span class="plus-sign">+</span>Module 11: Ethics in AI and Cybersecurity</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="faq">
+            <div class="faq-question" onclick="toggleAnswer(2)">
+                <h3><span class="plus-sign">+</span>Module 12: Capstone project</h3>
+            </div>
+            <div class="faq-answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, itaque reprehenderit harum perferendis dolorem quo voluptatibus incidunt a. Quae, voluptas quis. Rem ad quaerat nulla dignissimos obcaecati neque ex iusto?</p>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="container5">
+        <h2 class="container-heading">What will you Learn ?</h2>
+        <div class="question-row">
+            <div class="question">&#9989 AI-Integrated Cybersecurity Techniques
+                <p>Learners will develop the ability to integrate AI tools and technologies into cyber security practices. This include using AI for ethical hacking task such as reconnaissance, vulnerability assessment, penetration testing, and incident response.</p>
+            </div>
+            <div class="question">&#9989 Threat Analysis and Anomaly detection
+                <p>Students will gain skills in applying machine learning algorithms to detect unusual patterns and behaviours that indicate potential security threats. This skill is crucial for preemptively identifying and mitigating risks before.</p>
+            </div>
+        </div>
+        <div class="question-row">
+            <div class="question">&#9989 Automotive Security Protocol Optimization
+                <p>Students will be equipped to utilise AI to dynamically adjust and optimize security protocols based on real-time data analysis and threat assessment. Learner will explore how AI algorithms can predict and respond to potential security breaches by automatically tweaking firewall rules, security configuration, and other protective measures.</p>
+            </div>
+            <div class="question">&#9989 AI for Identity and Access Management  (IAM)
+                <p>Learners will understand how to apply AI to enhance IAM systems, crucial for maintaining secure access to resources within an organization. This involves using AI to improve authentication processes and manage user permission more dynamically and securely.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="container6">
+        <h2 class="container-heading1">Industry Opportunities after Course Completion</h2>
+        <div class="projects">
+            <div class="project">
+                <i class="fa-solid fa-table"></i>
+                <h3>Cybersecurity Analyst</h3>
+                <p>Analysis cyber threats using AI tools, monitors security systems, and recommends solutions to enhance network safety.</p>
+            </div>
+            <div class="project">
+                <i class="fa-solid fa-table"></i>
+                <h3>Penetration tester</h3>
+                <p>Uses AI to identify and exploit vulnerabilities in systems, ensuring robustness against potential cyberattacks.</p>
+            </div>
+            <div class="project">
+                <i class="fa-solid fa-table"></i>
+                <h3>Security Researcher</h3>
+                <p>Investigates AI-driven security solutions, explores emerging threats, and develops innovative cybersecurity defence mechanisms.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="container7">
+        <div class="left-half">
+            <div class="logo">
+                <img src="imgs/last_logo.png">
+            </div>
+            <p>Newsletter Signup</p>
+            <input type="email" placeholder="Enter Your email Address">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+        </div>
+        <div class="right-half">
+            <div class="about-section">
+                <h2>About</h2>
+                <div class="points">
+                    <p>Why AI Certs</p>
+                    <p>Accreditation</p>
+                    <p>Meet Our Team</p>
+                    <p>Trademarks</p>
+                    <p>Articles</p>
+                    <p>Press Release</p>
+                    <p>Testimonials</p>
+                    <p>Career</p>
+                    <p>Contact</p>
+                </div>
+            </div>
+            <div class="about-section">
+                <h2>Certifications</h2>
+                <div class="points">
+                    <p>AI+ Professionals<sup>TM</sup></p>
+                    <p>AI+ Technical<sup>TM</sup></p>
+                    <p>Blockchain+ Professional<sup>TM</sup></p>
+                    <p>Blockchain+ Technical<sup>TM</sup></p>
+                    <p>View All</p>
+                </div>
+            </div>
+            <div class="about-section">
+                <h2>Authorized</h2>
+                <div class="points">
+                    <p>Authorized Partners</p>
+                    <p>Authorized Trainers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="last">
+        <p>Copyright <i class="fa-solid fa-at"></i> AI CERTs<sup>TM</sup>, Inc. All Rights Reserves</p>
+    </div>
+</body>
+</html>
